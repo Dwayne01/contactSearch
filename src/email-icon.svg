@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.88" height="33.88" viewBox="0 0 33.88 33.88">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1111" data-name="Rectangle 1111" width="33.88" height="33.88" rx="16.94" transform="translate(877.448 711)" fill="#c2c1ca"/>
+    </clipPath>
+  </defs>
+  <g id="email-icon" transform="translate(-877.448 -711)" clip-path="url(#clip-path)">
+    <g id="ic-email-24px" transform="translate(878.995 712.547)">
+      <path id="Path_20" data-name="Path 20" d="M25.912,5.647H5.389A2.562,2.562,0,0,0,2.836,8.212L2.823,23.6A2.573,2.573,0,0,0,5.389,26.17H25.912A2.573,2.573,0,0,0,28.478,23.6V8.212A2.573,2.573,0,0,0,25.912,5.647Zm0,5.131L15.651,17.191,5.389,10.778V8.212l10.262,6.414L25.912,8.212Z" transform="translate(-0.258 -0.516)" fill="#303c42"/>
+      <path id="Path_21" data-name="Path 21" d="M0,0H30.785V30.785H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>

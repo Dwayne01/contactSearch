@@ -1,0 +1,477 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.logCont{
+  text-align: left
+}
+.topnav{
+  white-space: nowrap;
+  text-align: right
+}
+
+.header{
+  padding: 40px
+}
+
+.link{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: '400';
+  color: #908fa1
+};
+
+.linkBotton{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right:40px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.19);
+  background: linear-gradient(to right, #d44c6e 0%, #c25491 80%)
+}
+
+.activeLink{
+  margin-left: 20;
+  margin-right: 20;
+  text-decoration: none;
+  font-size: 16;
+  font-weight: 600;
+  color: #908fa1
+}
+
+.logo{
+  width: 70px;
+  height: 70px
+}
+
+
+//Search
+
+
+.title{
+  color: #de426f
+}
+
+.subtitle{
+  font-size: 18px;
+  margin: 0;
+  color: #0e0b1e
+}
+
+.inputField{
+  border: none;
+  width: 400px;
+  height: 30px;
+  padding: 15px;
+  margin-left: 15px;
+  color: #0e0b1e;
+  font-size: 14px;
+  font-weight: 500
+
+}
+
+
+.inputFieldCont{
+  display: flex; 
+  padding: 10px;
+  border-radius: 50px;
+  width: 38%;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.19);
+  outline: none
+}
+
+.search{
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  cursor: pointer
+}
+
+.cont{
+  width: 100%
+}
+
+//works
+.contWorks{
+  background-image: url('./bg-path.svg');
+  background-size: 100%;
+  padding-top: 130px;
+  padding-bottom: 200px;
+  background-repeat: no-repeat
+
+}
+
+.works{
+  width: 100%;
+  position: relative
+}
+
+.box{
+  width: 80%;
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.19);
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 100px
+}
+
+
+.col{
+  margin-top: 50px
+}
+
+
+.title{
+  color: #0e0b1e
+}
+
+.icon{
+  width: 200px;
+  height: 200px
+}
+
+
+.number{
+  font-size: 80px;
+  color: #f2c8d4;
+  margin: 0px
+}
+
+.label{
+  margin-top: 30px;
+  margin-right: 35px;
+  color: #0e0b1e;
+  font-weight: 500
+}
+
+.detail{
+  display: flex;
+  margin-top: 80px
+}
+
+label{
+  margin-bottom: 0
+}
+
+
+//contact
+.getStarted{
+  margin-top: 40px;
+  border-radius: 50px;
+  padding: 15px;
+  padding-left: 60px;
+  padding-right:60px;
+  width: 200px;    
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.19);
+  background: linear-gradient(to right, #d44c6e 0%, #c25491 80%)
+}
+
+.contactContainer{
+  padding: 100px
+}
+
+.left{
+  text-align: left;
+  margin-top: 40px;
+}
+.titleContact{
+  color: rgb(222, 66, 111)
+}
+
+.imageContact{
+  width: 300px;
+  height: 300px;
+}
+
+
+//placeholder
+.contPlaceHolder{
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-bottom: 80px
+}
+
+.boxPlaceHolder{
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.19);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px
+}
+
+.colPlaceHolder{
+  padding: 10px;
+}
+
+.rowContact{
+  display: flex;
+}
+
+
+.namePlaceHolder{
+  font-weight: 600;
+  color: rgb(108, 71, 113);
+  margin: 0
+}
+
+
+.labelPlaceHolder{
+  text-align: left;
+  font-weight: 500;
+  margin-top: 80px;
+  color: #0e0b1e;
+  margin-bottom: 60px;
+}
+
+
+.imagePlaceHolder{
+  width: 100%
+}
+
+
+//result
+
+.resultLeft{
+  text-align: left;
+  //  width: 30%
+}
+
+.contactImage{
+  background-color: #c7c7c7;
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+.resultRight{
+  text-align: left;
+  padding-left: 0!important;
+}
+
+.contactName{
+  font-weight: 600;
+  font-size: 16;
+  color: #0e0b1e;
+  text-transform:capitalize
+}
+
+.nat{
+  float: right;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(100, 100, 100)
+}
+
+.contactIcon{
+    width: 20px;
+    margin-right: 10px
+}
+
+.contactPhone{
+  color: rgb(108, 71, 113); 
+  font-weight: 600; 
+  font-size: 12px;
+  margin: 0
+}
+
+.contactEmail{
+  font-weight: 600;
+  font-size: 12px; 
+  color: #0e0b1e; 
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  margin: 0
+}
+
+label{
+  margin: 0
+}
+
+
+.contactFav{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  position: relative;
+  top: 14px
+}
+
+.boxResult{
+  box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.19);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 23px 10px;
+  margin-top: 30px;
+}
+
+.divider{
+  color: #eaeaea; 
+  border-width: 0.7;
+}
+
+
+
+//modal
+
+.modalImage{
+ background-color: #c7c7c7;
+ height: 150px;
+ width: 150px; 
+ border-radius: 100px;
+ position: relative; 
+ top: -83px
+}
+
+.modalContainer{
+  position: relative;
+  bottom: 50px
+}
+
+.modalName{
+  font-weight: 600;
+  font-size: 16px;
+  color: #0e0b1e; 
+  text-transform: capitalize;
+}
+
+.gender{
+    color: rgb(108, 71, 113);
+    margin-top: 10; 
+    font-Weight: 600;
+    font-size: 12px;
+}
+
+.modalNat{
+  color: rgb(108, 71, 113);
+  margin-top: 10px;
+  font-weight: 600; 
+  font-size: 12px;
+}
+
+.modalDetails{
+  font-weight: 600;
+  font-size: 12px;
+  color: #0e0b1e;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  margin: 0
+}
+
+.marinTop{
+  margin-top: 40px
+}
+
+.signUpModal{
+  justify-content: center;
+}
+
+
+.modlaSignupButton{
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50px;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right:40px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  background: #d44c6e
+}
+
+
+.favorite{
+  color: rgb(108, 71, 113);
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.moreDetails{
+  font-weight: 600; 
+  font-size: 12px; 
+  color: #0e0b1e; 
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.closeIcon{
+  position: absolute;
+  top: -120px;
+  width: 30px;
+  right: -236px;
+}
+
+.footer{
+  
+  justify-content: space-between;
+  padding: 40px;
+  padding-top: 0;
+  padding-bottom: 10
+}
+
+.footerLink{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(222, 66, 111);
+}
+
+a{
+  text-decoration: none!important;
+}
+
+a:hover{
+  color: rgb(100, 100, 100) !important
+}
